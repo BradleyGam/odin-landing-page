@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100%;
+	background: #fff;
+	color: #000;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img { 
+	border: none;
+	max-width: 100%;
+}
+
+p {
+    hyphens: auto;
+}
