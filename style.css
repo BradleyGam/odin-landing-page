@@ -43,7 +43,8 @@ header,
 }
 
 h2 {
-	margin: 0px;
+	margin: 40px 0px;
+	font-size: 32px;
 }
 
 nav a {
@@ -167,4 +168,32 @@ footer {
 
 footer p {
 	color: #F9FAF8;
+}
+
+.info-section {
+	text-align: center;
+	padding: 0px 20px;
+	margin: 0 auto;
+}
+
+.info-container {
+	display: flex;
+	justify-content: center;
+	gap: 48px;
+	margin-bottom: 80px;
+}
+
+.info {
+	max-width: 150px;
+}
+
+.info img {
+	border: 3px solid#3882F6;
+	min-width: 150px;
+	min-height: 150px;
+	border-radius: 10px;
+}
+
+.info p {
+	color: #000;
 }
